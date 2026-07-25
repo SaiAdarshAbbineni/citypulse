@@ -1,0 +1,54 @@
+name: Feature
+description: Implement a new CityPulse capability
+title: "[Feature]: "
+labels:
+  - feature
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What system or user outcome should exist after this work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Define testable completion conditions.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Technical Notes
+      description: Relevant API, data, realtime, infrastructure, or architecture considerations.
+
+  - type: textarea
+    id: security
+    attributes:
+      label: Security / Privacy Impact
+      description: Describe authorization, sensitive-data, or location-data implications.
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Related issues, ADRs, external services, or blockers.
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing Requirements
+      description: Unit, integration, E2E, performance, or security verification required.
+
+  - type: textarea
+    id: documentation
+    attributes:
+      label: Documentation Impact
+      description: Architecture, API, runbook, ADR, or other documentation requiring updates.

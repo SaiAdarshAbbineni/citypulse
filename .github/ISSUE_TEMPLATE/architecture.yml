@@ -1,0 +1,42 @@
+name: Architecture Decision
+description: Propose a significant CityPulse architecture change
+title: "[Architecture]: "
+labels:
+  - architecture
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What engineering problem requires a decision?
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements / Forces
+      description: What constraints or quality attributes influence the decision?
+    validations:
+      required: true
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: What realistic alternatives should be evaluated?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: Effects on performance, reliability, security, cost, complexity, and delivery.
+
+  - type: checkboxes
+    id: adr
+    attributes:
+      label: ADR
+      options:
+        - label: This decision requires an ADR before implementation.
